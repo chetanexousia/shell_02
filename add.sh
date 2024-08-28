@@ -1,15 +1,11 @@
-#!/bin/bash
+#!/bin/sh
 
-# Ask user for first number
-echo "Enter first number: "
-read num1
+# Static numbers to add
+num1=10
+num2=5
 
-# Ask user for second number
-echo "Enter second number: "
-read num2
-
-# Perform addition
+# Perform the addition
 sum=$((num1 + num2))
 
-# Display result
-echo "Sum: $sum"
+# Display the result
+echo "The sum of $num1 and $num2 is: $sum"
