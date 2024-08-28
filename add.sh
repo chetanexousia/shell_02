@@ -5,7 +5,7 @@ num1=10
 num2=5
 
 # Perform the substraction
-sum=$((num1 - num2))
+sum=$((num1 * num2))
 
 # Display the result
-echo "The substract of $num1 and $num2 is: $sum"
+echo "The multiplication of $num1 and $num2 is: $sum"
